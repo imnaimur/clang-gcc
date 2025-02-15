@@ -1,10 +1,10 @@
-**#Installing GCC**
+#Installing GCC* (H2)
 
 Mac's default C++ compiler Clang does not include many of the libraries provided by GCC, which is regularly used by competitive programmers, like #include <bits/stdc++.h> and Policy Based Data Structures. So you're missing out by not using GCC.
 Make sure the terminal is at the root folder by typing cd ~. First set up homebrew in your mac and install gcc by typing brew install gcc in the terminal. To find more details about this step check the links provided at the end
 
 
-#Using GCC to the fullest
+#Using GCC to the fullest (H2)
 
 GCC already supports up to the latest C++ version but is defaulted to older ones for some reason. To remedy this you first need to know the version of gcc you are using.
 
@@ -14,7 +14,7 @@ GCC already supports up to the latest C++ version but is defaulted to older ones
 
   3.Then go to (whatever version number is here) -> bin. Here in the bin folder, you can see the gcc and g++ versions.
 
-Mine is version 14
+`Mine is version 14` (H2)
 Now that you know the version of your g++ compiler, the next time you compile a C++ code instead of using just g++ use g++-14 instead (I used 14 since that is my g++ compiler version).
 
 Congratulations you can now use everything from #include <bits/stdc++.h> to Policy Based Data Structures. However, for some reason, this still compiles using C++17, which is fine, but if you want to use C++20 (which is the latest version as of writing this) just add -std=c++20 after g++-14.
@@ -23,7 +23,7 @@ So from now on, instead of executing your code using g++ <filename>.cpp, use g++
 
 
 
-#Configuring VS Code
+#Configuring VS Code (H2)
 
 If you use VS code instead of compiling through the terminal like me, you can easily implement this. If you are using code runner for execution do the following:
 
