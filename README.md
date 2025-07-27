@@ -6,6 +6,15 @@
 `G++ in Macbook`
 
 `GCC in Macbook`
+
+# GCC Installation guide for MacBook
+
+# G++ Installation guide for MacBook
+
+# GCC setup guide for vs code in MacBook
+
+# G++ setup guide for vs code in MacBook
+
 ## Installing GCC In Mac 
 
 Mac's default C++ compiler Clang does not include many of the libraries provided by GCC, which is regularly used by competitive programmers, like #include <bits/stdc++.h> and Policy Based Data Structures. So you're missing out by not using GCC.
