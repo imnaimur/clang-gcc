@@ -1,6 +1,11 @@
 
-`NO CLENG 
-ONLY GCC ON  MAC`
+`NO CLENG`
+
+`ONLY GCC ON  MAC`
+
+`G++ in Macbook`
+
+`GCC in Macbook`
 ## Installing GCC In Mac 
 
 Mac's default C++ compiler Clang does not include many of the libraries provided by GCC, which is regularly used by competitive programmers, like #include <bits/stdc++.h> and Policy Based Data Structures. So you're missing out by not using GCC.
